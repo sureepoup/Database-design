@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f912b6-a019-45da-bc4a-33cb2a8f82cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Database.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$nashev_otchet.docx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,15 +98,15 @@
       <updated>1578674586761</updated>
       <workItem from="1578674609020" duration="10365000" />
       <workItem from="1578730004844" duration="17010000" />
+      <workItem from="1578813764051" duration="277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27375000" />
+    <option name="totallyTimeSpent" value="27652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.02010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -125,7 +122,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Jupyter" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Jupyter" order="11" visible="true" weight="0.042432815" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.042432815" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
