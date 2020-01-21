@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f912b6-a019-45da-bc4a-33cb2a8f82cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Database.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Queries.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programming/Machine_Learning/Алгоритмы распознавания изображений/Labs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -99,16 +101,18 @@
       <workItem from="1578674609020" duration="10365000" />
       <workItem from="1578730004844" duration="17010000" />
       <workItem from="1578813764051" duration="277000" />
+      <workItem from="1578839773006" duration="3074000" />
+      <workItem from="1579081527709" duration="138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27652000" />
+    <option name="totallyTimeSpent" value="30864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.02010724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22453083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

@@ -1,9 +1,9 @@
 Просмотр всех аудиторий
 
-SELECT class_.id_, lesson.name_ as lesson_, class_.time_start, class_.time_end, teacher.name_ as teacher_, group_.number as group_,
-    form.name_ as form_, day_of_the_week.name_ as day_, audience.number as audience_
-    FROM class_, lesson, teacher, group_, form, day_of_the_week, audience WHERE class_.lesson_id = lesson.id_ AND
-    class_.teacher_id = teacher.id_ AND class_.group_id = group_.id_ AND class_.form_id = form.id_ 
+SELECT class_.id_, lesson.name_ as lesson_, class_.time_start, class_.time_end, teacher.name_ as teacher_, st_group.number_ as group_,
+    form.name_ as form_, day_of_the_week.name_ as day_, audience.number_ as audience_
+    FROM class_, lesson, teacher, st_group, form, day_of_the_week, audience WHERE class_.lesson_id = lesson.id_ AND
+    class_.teacher_id = teacher.id_ AND class_.group_id = st_group.id_ AND class_.form_id = form.id_ 
     AND class_.day_of_the_week_id = day_of_the_week.id_ AND class_.audience_id = audience.id_
     
 Просмотр свободных аудиторий
@@ -11,3 +11,12 @@ SELECT class_.id_, lesson.name_ as lesson_, class_.time_start, class_.time_end, 
 WITH sq AS (SELECT audience.id_, audience.number_ FROM audience, class_ WHERE class_.audience_id = audience.id_ AND
 (class_.time_start > 'start' AND class_.time_end < 'end'))
 SELECT DISTINCT(audience.number_) FROM audience WHERE (audience.id_ NOT IN (10000000)) AND audience.id_ NOT IN (SELECT sq.id_ FROM sq)
+
+Добавление пары
+
+INSERT INTO class_ VALUES (5,4, '12:30', '13:30', 6, 1, 2, 1, 2, 1)
+
+Изменение информации о паре
+
+UPDATE class_ SET audience_id = 8 WHERE class_.id_ = 8
+
